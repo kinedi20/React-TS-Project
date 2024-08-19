@@ -4,7 +4,7 @@ export interface User {
     prenom: string;
     email: string;
     role: string;
-    statut: 'Actif' | 'Inactif';
+    statut: boolean;
     telephone?: string;
     adresse?: string;
   }

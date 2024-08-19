@@ -7,7 +7,7 @@ import UserDetailsPage from "./pages/UserDetailsPage";
 import AddUserPage from "./pages/AddUserPage";
 
 
-
+export const url = 'http://localhost:3000'
 
 
 

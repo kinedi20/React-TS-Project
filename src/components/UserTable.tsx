@@ -59,10 +59,10 @@ const UserTable: React.FC= () => {
             <td className="py-2 px-4">{user.role}</td>
             <td
               className={`py-2 px-4 ${
-                user.statut === "Actif" ? "text-green-600" : "text-red-600"
+                user.statut === true ? "text-green-600" : "text-red-600"
               }`}
             >
-              {user.statut}
+              {user.statut == true ? "Actif" : "Inactif"}
             </td>
             <td className="py-2 px-4">
               <Link to= {`/userDetailsPage/${user.id}`}>
